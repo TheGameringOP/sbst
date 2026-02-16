@@ -35,13 +35,7 @@ import javax.swing.*
 
 
 object ModChecker {
-    val isModded by lazy {
-        ClientBrandRetriever.getClientModName()?.startsWith("fml,forge") != true ||
-                ClientBrandRetriever.getClientModName() != FMLCommonHandler.instance().modName ||
-                Loader.isModLoaded("feather") ||
-                Loader.isModLoaded("labymod") ||
-                ForgeVersion.getStatus().ordinal > 3
-    }
+    val isModded by lazy {false}
 
     val canShowNotifications by lazy {
         !EssentialAPI.getConfig().disableAllNotifications && !EssentialAPI.getOnboardingData().hasDeniedEssentialTOS()

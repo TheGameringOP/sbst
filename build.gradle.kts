@@ -24,7 +24,7 @@ plugins {
     kotlin("jvm") version "1.9.22"
     kotlin("plugin.serialization") version "1.9.22"
     id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("net.kyori.blossom") version "2.1.0"
+    id("net.kyori.blossom") version "2.2.0"
     id("io.github.juuxel.loom-vineflower") version "1.11.0"
     id("gg.essential.loom") version "1.3.12"
     id("gg.essential.defaults") version "0.3.0"

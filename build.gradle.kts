@@ -166,10 +166,10 @@ dependencies {
     shadowMe(project(":hypixel-api:types")) { excludeKotlin() }
     shadowMe(project(":ws-shared")) { excludeKotlin() }
 
-    shadowMe("org.bouncycastle:bcpg-jdk18on:1.78.1") {
+    shadowMe("org.bouncycastle:bcpg-jdk18on:1.83") {
         exclude(module = "bcprov-jdk18on")
     }
-    compileOnly("org.bouncycastle:bcprov-jdk18on:1.78.1")
+    compileOnly("org.bouncycastle:bcprov-jdk18on:1.83")
 
     shadowMe("org.incendo:cloud-kotlin-coroutines-annotations:2.0.0") { excludeKotlin() }
     shadowMe("org.incendo:cloud-kotlin-extensions:2.0.0") { excludeKotlin() }

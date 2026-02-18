@@ -117,7 +117,7 @@ dependencies {
         isTransitive = false
     }
 
-    shadowMe("dev.dediamondpro:minemark-elementa:1.2.3") {
+    shadowMe("dev.dediamondpro:minemark-elementa:1.3.1") {
         excludeKotlin()
         exclude(module = "elementa-1.8.9-forge")
     }
